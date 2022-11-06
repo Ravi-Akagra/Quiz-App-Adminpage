@@ -133,11 +133,11 @@ iframe {
   min-height: 100%;
   padding: 15px;
 
-  background: #009bff;
-  background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
-  background: -o-linear-gradient(left, #0072ff, #00c6ff);
-  background: -moz-linear-gradient(left, #0072ff, #00c6ff);
-  background: linear-gradient(left, #0072ff, #00c6ff);
+  background: #441276;
+  background: -webkit-linear-gradient(left, #441276, #00c6ff);
+  background: -o-linear-gradient(left, #441276, #00c6ff);
+  background: -moz-linear-gradient(left, #441276, #00c6ff);
+  background: linear-gradient(left, #441276, #00c6ff);
 
   display: -webkit-box;
   display: -webkit-flex;
@@ -150,7 +150,7 @@ iframe {
 }
 
 .container-contact1 {
-  width: 1163px;
+  width: max-content;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -170,7 +170,7 @@ iframe {
 /*------------------------------------------------------------------
 [  ]*/
 .contact1-pic {
-  width: 296px;
+  display: none;
 }
 
 .contact1-pic img {
@@ -326,7 +326,7 @@ textarea.input1 + .shadow-input1 {
 
 @media (max-width: 1200px) {
   .contact1-pic {
-    width: 33.5%;
+    display: none;
   }
 
   .contact1-form {
@@ -340,7 +340,7 @@ textarea.input1 + .shadow-input1 {
   }
 
   .contact1-pic {
-    width: 35%;
+    display: none;
   }
 
   .contact1-form {
@@ -435,3 +435,25 @@ textarea.input1 + .shadow-input1 {
     opacity: 1;
   }
 }
+/* ------------------------------------------------------ */
+input [type= "radio"]{
+     display: none;
+}
+label{
+    position: relative;
+    width: 119px;
+     background: #e6e6e6;
+    color: #666666;
+    font-size: 15px;
+     font-family: Montserrat-Regular, sans-serif;
+    border-radius: 10px;
+    padding: 7px 40px;
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     font-weight: 400;
+     margin-bottom: 0px;
+}
+
+
+
