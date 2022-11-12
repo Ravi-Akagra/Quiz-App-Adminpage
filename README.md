@@ -1,5 +1,4 @@
-# firebase-simple-web-form
-A simple demo on how to connect a web form to Realtime database of Firebase.
+Forked from [firebase-simple-web-form](https://github.com/Devyanshu/firebase-simple-web-form)
 
-#### Form theme taken from [Colorlib](https://colorlib.com/wp/template/contact-form-v1/).
-##### Get the Firebase web app credentials from the Firebase console and paste them in the js/submit.js files
+### Link to Android app Source code [Quiz-App](https://github.com/Ravi-Akagra/Quiz-App-Android)
+
